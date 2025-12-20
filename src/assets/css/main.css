@@ -1,0 +1,32 @@
+@import "tailwindcss";
+@plugin "daisyui";
+@import './variables.css';
+
+
+
+@font-face {
+  font-display: swap;
+  font-family: 'pt-sans';
+  font-style: normal;
+  font-weight: 400;
+  src: url('../fonts/pt-sans-400.woff2') format('woff2');
+}
+
+
+
+
+body {
+  background-color: var(--black);
+
+}
+
+p {
+  font-family: pt-sans;
+  font-weight: 400;
+
+}
+
+h1 {
+  font-family: pt-sans;
+  font-weight: 700;
+}
