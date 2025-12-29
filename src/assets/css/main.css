@@ -17,6 +17,7 @@
 
 body {
   background-color: var(--black);
+  min-height: 100vh;
 
 }
 
@@ -30,3 +31,4 @@ h1 {
   font-family: pt-sans;
   font-weight: 700;
 }
+

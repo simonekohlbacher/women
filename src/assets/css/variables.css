@@ -1,5 +1,13 @@
 
 :root {
-    --black: #111;
+    --black: #222;
+    --white: 
 
   }
+
+@media (min-width: 600px){
+   .acc-img {
+    max-width: 40vw;
+  }
+}
+ 
